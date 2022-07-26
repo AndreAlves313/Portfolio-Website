@@ -1,0 +1,44 @@
+/*////////////////////
+/--> All body css <--/
+////////////////////*/
+body {
+    background-color: black;
+}
+
+/*/////////////////////////
+/--> Nav Bar structure <--/
+/////////////////////////*/
+ul {
+    margin:auto;
+    width: fit-content;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #280c85;
+  }
+  
+  /*///////////////////////
+  /--> Nav Bar content <--/
+  ///////////////////////*/
+  li {
+    float: left;
+  }
+  
+  /*////////////////////////////
+  /--> Nav Bar Text Content <--/
+  ////////////////////////////*/
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /*//////////////////////////////
+  /--> Nav bar hover bg color <--/
+  //////////////////////////////*/
+  li a:hover {
+    background-color: #5f34ed;
+  }
